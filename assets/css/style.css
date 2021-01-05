@@ -1,0 +1,21 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+/* ---------- Lamding Page ---------- */
+.homepage-bg {
+    height: 100vh;
+    
+    background-color: grey;
+}
+
+a.nav-link {
+    color: #000;
+}
+
