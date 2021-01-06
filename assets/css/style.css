@@ -21,10 +21,21 @@ h1 {
     gap: 1rem;
 }
 
-a.nav-link {
+a.nav-link.social-link {
     color: #000;
 }
 
-#cv-nav {
+/* ---------- Navigation Bar ---------- */
+.cv-nav {
+    /* bottom: 50px; */
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.sticky-top {
     bottom: 50px;
+}
+
+.content {
+    height: 1000px;
 }
