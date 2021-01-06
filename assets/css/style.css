@@ -15,7 +15,16 @@ h1 {
     background-color: grey;
 }
 
+#social-nav {
+    flex-direction: column;
+    display: inline-flex;
+    gap: 1rem;
+}
+
 a.nav-link {
     color: #000;
 }
 
+#cv-nav {
+    bottom: 50px;
+}
