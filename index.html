@@ -26,8 +26,8 @@
                 <div class="row h-100 align-items-center">
                     <!-- homepage text -->
                     <div class="col-9">
-                        <h3>daryl hyde</h3>
-                        <h1>
+                        <h3 class="capitalize">daryl hyde</h3>
+                        <h1 class="capitalize">
                             <span>
                                 <hr>
                             </span>
@@ -37,34 +37,82 @@
                     <!-- social nav links -->
                     <div class="col-3 text-end">
                         <ul id="social-nav" class="nav">
-                            <li class="nav-item"><a href="" class="nav-link social-link"><i class="fab fa-linkedin-in"></i></a></li>
-                            <li class="nav-item"><a href="" class="nav-link social-link"><i class="fab fa-github"></i></a></li>
-                            <li class="nav-item"><a href="" class="nav-link social-link"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="nav-item"><a href="" class="nav-link social-link"><i
+                                        class="fab fa-linkedin-in"></i></a></li>
+                            <li class="nav-item"><a href="" class="nav-link social-link"><i
+                                        class="fab fa-github"></i></a></li>
+                            <li class="nav-item"><a href="" class="nav-link social-link"><i
+                                        class="fab fa-facebook-f"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <!-- Navigation Bar -->
+            <nav class="cv-nav sticky-top">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">download</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-    <nav class="cv-nav sticky-top">
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-                <a class="nav-link" href="#">about me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">resume</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">contact</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">download</a>
-            </li>
-        </ul>
-    </nav>
 
-    <section>
-        <div class="content"></div>
+    <section class="container-fluid">
+        <div class="row">
+            <!-- personal info column -->
+            <div id="personal-info" class="col-md-4 bg-color-personal-info section-col">
+                <!-- <table class="table table-borderless">
+                    <thead>
+                        <h3 class="section-heading uppercase">personal info</h3>
+                    </thead>
+                    <tbody>
+                        <tr class="table-row">
+                            <th scope="row" class="uppercase">name</th>
+                            <td>Daryl Hyde</td>
+                        </tr>
+                        <tr class="table-row">
+                            <th scope="row" class="uppercase">phone</th>
+                            <td>07777 888 555</td>
+                        </tr>
+                        <tr class="table-row">
+                            <th scope="row" class="uppercase">email</th>
+                            <td>darylhyde_13@hotmail.com</td>
+                        </tr>
+                    </tbody>
+                </table> -->
+
+                <h3 class="section-heading uppercase">personal info</h3>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">name:</p>
+                    </div>
+                    <div class="value">daryl hyde</div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">phone:</p>
+                    </div>
+                    <div class="value">07777 888 999</div>
+                </div>
+                <div class="personal-info-item">
+                    <div class="key">
+                        <p class="uppercase">email:</p>
+                    </div>
+                    <div class="value">darylhyde_13@hotmail.com</div>
+                </div>
+            </div>
+            <div class="col-md-8"></div>
+        </div>
     </section>
 
     <footer></footer>
