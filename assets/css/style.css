@@ -92,3 +92,8 @@ a.nav-link.social-link {
 .personal-info-item .key p {
     font-weight: bold;
 }
+
+/* ---------- About Me ---------- */
+.about-me-reason-heading {
+    margin-bottom: 15px;
+}
