@@ -37,6 +37,14 @@ h1 {
     background-color: grey;
 }
 
+#heading-name, 
+#heading-title,
+#linkedin,
+#github,
+#facebook {
+    display: none;
+}
+
 #social-nav {
     flex-direction: column;
     display: inline-flex;
