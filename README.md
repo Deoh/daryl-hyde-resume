@@ -1,6 +1,29 @@
 # My CV
 
 A custom built CV website presenting my skillset and completed projects to potential employers and clients.
+
+## Table of Contents
+
+1. [**UX**](#ux)
+    - [**User Stories**](#user-stories)
+    - [**Design choices**](#design-choices)
+    - [**Wireframes**](#wireframes)
+
+2. [**Features**](#features)
+    - [**Existing Features**](#existing-features)
+    - [**Features To Be Implemented**](#features-to-be-implemented)
+
+3. [**Technologies Used**](#technologies-used)
+
+4. [**Testing**](#testing)
+
+5. [**Deployment**](#deployment)
+
+6. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
+
  
 ## UX
  
