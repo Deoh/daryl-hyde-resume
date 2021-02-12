@@ -47,78 +47,123 @@
                     </div>
                 </div>
             </div>
-            <!-- Navigation Bar -->
-            <nav class="cv-nav sticky-top">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me-section">about me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">download</a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </header>
+    
+    <!-- Navigation Bar -->
+    <nav class="cv-nav sticky-top">
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about-me-section">about me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" target="__blank">download</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <section id="about-me-section"  class="container-fluid">
         <div class="row">
             <!-- personal info column -->
-            <div id="personal-info" class="col-md-4 bg-color-personal-info section-col">
-                <h3 class="section-heading uppercase">personal info</h3>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">name:</p>
+            <div id="personal-info" class="col-md-4 bg-color-personal-info text-color-white section-col">
+                <!-- personal info -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3 class="section-heading uppercase">personal info</h3>
+                            <div class="personal-info-item">
+                                <div class="key">
+                                    <p class="uppercase">name:</p>
+                                </div>
+                                <div class="value">daryl hyde</div>
+                            </div>
+                            <div class="personal-info-item">
+                                <div class="key">
+                                    <p class="uppercase">phone:</p>
+                                </div>
+                                <div class="value">07777 888 999</div>
+                            </div>
+                            <div class="personal-info-item">
+                                <div class="key">
+                                    <p class="uppercase">email:</p>
+                                </div>
+                                <div class="value">darylhyde_13@hotmail.com</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="value">daryl hyde</div>
                 </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">phone:</p>
+                <!-- transferable skills -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="skills-container">
+                                <div class="skill">
+                                    <div class="skill-name uppercase">Organization</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="50"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name uppercase">Communication</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="60"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name uppercase">Problem Solving</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="80"></div>
+                                    </div>
+                                </div>
+                                <div class="skill">
+                                    <div class="skill-name uppercase">Attention to detail</div>
+                                    <div class="skill-bar">
+                                        <div class="skill-per" per="70"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="value">07777 888 999</div>
-                </div>
-                <div class="personal-info-item">
-                    <div class="key">
-                        <p class="uppercase">email:</p>
-                    </div>
-                    <div class="value">darylhyde_13@hotmail.com</div>
                 </div>
             </div>
             <!-- about me column -->
             <div id="about-me" class="col-md-8 section-col">
-                <h3 class="section-heading uppercase">about me</h3>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-md-0 col-sm-4">
-                        <h4 class="about-me-reason-heading uppercase">the why</h4>
-                        <p>
-                            I have a meticulous attention to detail and a logical mind with a good approach to problem
-                            solving and a drive to see things through to completion. I am collaborative, reliable,
-                            trustworthy, hardworking and eager to learn.
-                            I'm in search of work more focused around my interest and passion,
-                            which is working with different technologies, computer systems and networks.
-                        </p>
-                    </div>
-                    <div class="col-10 offset-1 offset-md-0 col-sm-4">
-                        <h4 class="about-me-reason-heading uppercase">the how</h4>
-                        <p>
-                            Through the code institute, I have learned new skills and developed great understanding
-                            which has led me to become Full Stack Software Developer. I'm currently proficient in
-                            html, CSS, JavaScript, jQuery, Flask, Python and Django.
-                        </p>
-                    </div>
-                    <div class="col-10 offset-1 offset-md-0 col-sm-4">
-                        <h4 class="about-me-reason-heading uppercase">the what</h4>
-                        <p>
-                            I'm a skilled Full Stack Web Developer with a wealth of diverse life and technical
-                            expreience that i can bring to every project.
-                        </p>
+                <div class="container">
+                    <h3 class="section-heading uppercase">about me</h3>
+                    <div class="row">
+                        <div class="col-10 offset-1 offset-md-0 col-sm-4">
+                            <h4 class="about-me-reason-heading uppercase">the why</h4>
+                            <p>
+                                I have a meticulous attention to detail and a logical mind with a good approach to problem
+                                solving and a drive to see things through to completion. I am collaborative, reliable,
+                                trustworthy, hardworking and eager to learn.
+                                I'm in search of work more focused around my interest and passion,
+                                which is working with different technologies, computer systems and networks.
+                            </p>
+                        </div>
+                        <div class="col-10 offset-1 offset-md-0 col-sm-4">
+                            <h4 class="about-me-reason-heading uppercase">the how</h4>
+                            <p>
+                                Through the code institute, I have learned new skills and developed great understanding
+                                which has led me to become Full Stack Software Developer. I'm currently proficient in
+                                html, CSS, JavaScript, jQuery, Flask, Python and Django.
+                            </p>
+                        </div>
+                        <div class="col-10 offset-1 offset-md-0 col-sm-4">
+                            <h4 class="about-me-reason-heading uppercase">the what</h4>
+                            <p>
+                                I'm a skilled Full Stack Web Developer with a wealth of diverse life and technical
+                                expreience that i can bring to every project.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

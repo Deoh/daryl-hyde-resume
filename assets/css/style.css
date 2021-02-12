@@ -9,7 +9,8 @@ h1 {
 }
 
 .section-col {
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .section-heading {
@@ -25,9 +26,18 @@ h1 {
     text-transform: capitalize;
 }
 
+
 /* ---------- Colours ---------- */
 .bg-color-personal-info {
-    background-color: lightsteelblue;
+    background-color: #276fd1;
+}
+
+.bg-color-nav {
+    background-color: #f3f7fa;
+}
+
+.text-color-white {
+    color: #fff;
 }
 
 /* ---------- Lamding Page ---------- */
@@ -60,16 +70,24 @@ a.nav-link.social-link {
     /* bottom: 50px; */
     padding-top: .5rem;
     padding-bottom: .5rem;
-    background-color: transparent;
+    
 }
+
+.cv-nav .nav-link {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+a.nav-link {
+    color: #6c8ebf;
+    font-weight: 700;
+}
+
 
 .sticky-top {
     bottom: 50px;
 }
 
-.content {
-    height: 1000px;
-}
 
 /* ---------- Personal Info ---------- */
 .personal-info-item {
@@ -101,6 +119,46 @@ a.nav-link.social-link {
     font-weight: bold;
 }
 
+/* ---------- Transferable skills ---------- */
+
+.skills-container {
+    max-width: 360px;
+    margin-bottom: 30px;
+}
+
+.skill-name {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.skill-bar {
+    height: 6px;
+    background-color: #38b0c9;
+    border-radius: 3px;
+}
+
+.skill-per {
+    position: relative;
+    height: 6px;
+    background-color: #ebfaff;
+    border-radius: 3px;
+    width: 50%;
+}
+
+.skill-per::after {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    border-radius: 50%;
+    top: -10px;
+    right: 0;
+    transform: translateX(50%);
+}
+
 /* ---------- About Me ---------- */
 .about-me-reason-heading {
     margin-bottom: 15px;
@@ -108,7 +166,7 @@ a.nav-link.social-link {
 
 /* ---------- footer ---------- */
 footer {
-    background-color: grey;
+    background-color: #f3f7fa;
 }
 
 .social-link-footer {
