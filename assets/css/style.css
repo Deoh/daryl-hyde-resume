@@ -143,20 +143,7 @@ a.nav-link {
     height: 6px;
     background-color: #ebfaff;
     border-radius: 3px;
-    width: 50%;
-}
-
-.skill-per::after {
-    content: attr(per);
-    position: absolute;
-    padding: 4px 6px;
-    background-color: #fff;
-    color: #000;
-    font-size: 12px;
-    border-radius: 50%;
-    top: -10px;
-    right: 0;
-    transform: translateX(50%);
+    width: 0;
 }
 
 /* ---------- About Me ---------- */
