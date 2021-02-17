@@ -28,7 +28,8 @@ h1 {
 
 
 /* ---------- Colours ---------- */
-.bg-color-personal-info {
+.bg-color-personal-info,
+.bg-color-work-history {
     background-color: #276fd1;
 }
 
@@ -43,6 +44,12 @@ h1 {
 /* ---------- Lamding Page ---------- */
 .homepage-bg {
     height: 100vh;
+    
+    background-color: #fff;
+}
+
+.resume-bg {
+    height: 50vh;
     
     background-color: #fff;
 }
@@ -156,6 +163,12 @@ footer {
     background-color: #f3f7fa;
 }
 
+.footer-heading {
+    color: #6c8ebf;
+    font-weight: 700;
+        font-size: 15px;
+}
+
 .social-link-footer {
     padding-bottom: 15px;
 }
@@ -178,4 +191,35 @@ footer {
 
 .social-link-footer li a i:hover {
     background: lightsteelblue;
+}
+
+/* ---------- Work History ---------- */
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fff;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    margin: 0;
+}
+
+/* work history date */
+.timeline-item:before { 
+    content: attr(data-dates);
+    position: absolute;
+    top: 2em;
+}
+
+/* timeline dot */
+.timeline-item:after {
+    content: '';
+    background: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    position: absolute;
+    top: 2.4em;
+    left: -6px;
 }
