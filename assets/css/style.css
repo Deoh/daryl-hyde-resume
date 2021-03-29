@@ -26,6 +26,17 @@ h1 {
     text-transform: capitalize;
 }
 
+.reasons-icon {
+    font-size: 26px;
+}
+
+.reasons-icon-q {
+    font-size: 20px;
+}
+
+.reasons-heading {
+    margin-bottom: 15px;
+}
 
 /* ---------- Colours ---------- */
 .bg-color-personal-info,
@@ -188,9 +199,7 @@ footer {
 }
 
 /* ---------- About Me ---------- */
-.about-me-reason-heading {
-    margin-bottom: 15px;
-}
+
 
 /* ---------- Work History ---------- */
 .timeline-item {
@@ -221,4 +230,42 @@ footer {
     position: absolute;
     top: 2.4em;
     left: -6px;
+}
+
+/* ---------- My Skills ---------- */
+
+.lang-skills-container {
+    
+    margin: 40px 20px;
+}
+
+.lang-skill-name {
+    margin: 20px 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.lang-skill-bar {
+    height: 6px;
+    background-color: #38b0c9;
+    border-radius: 3px;
+}
+
+.lang-skill-per {
+    position: relative;
+    height: 6px;
+    background-color: #ebfaff;
+    border-radius: 3px;
+    width: 0;
+}
+
+.lang-skill-per::after {
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background-color: #000;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    top: -11px;
 }
