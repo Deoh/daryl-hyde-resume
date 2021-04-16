@@ -59,7 +59,7 @@ h1 {
     background-color: #fff;
 }
 
-.resume-bg {
+.portfolio-bg {
     height: 50vh;
     
     background-color: #fff;
@@ -254,18 +254,49 @@ footer {
 .lang-skill-per {
     position: relative;
     height: 6px;
-    background-color: #ebfaff;
+    background-color: #276fd1;
     border-radius: 3px;
     width: 0;
+    transition: 1.5s 1.5s ease-in-out;
 }
 
 .lang-skill-per::after {
     content: attr(per);
     position: absolute;
     padding: 4px 6px;
-    background-color: #000;
+    background-color: #276fd1;
     color: #fff;
     font-size: 12px;
     border-radius: 50%;
     top: -11px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+/* ---------- portfolio ---------- */
+
+#portfolio_carousel {
+    margin-bottom: 50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    background-color: transparent;
+    border-width: 0;
+}
+
+
+/* ---------- contact ---------- */
+
+.center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+
 }

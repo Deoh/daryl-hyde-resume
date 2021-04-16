@@ -15,6 +15,11 @@ $(document).ready(function () {
             let per = $(this).attr("per")
             $(this).animate({ width: `${per}%` }, 1500) // for reference per+"%" 
         });
+        // Language skills animation
+        $(".lang-skill-per").each(function () {
+            let per = $(this).attr("per")
+            $(this).css({ width: `${per}%` }, 1500) // for reference per+"%" 
+        });
         return false // stops anchor refreshing the page
     });
 
